@@ -11,6 +11,20 @@
 6. `python server.py` should start the server
 
 
+# Setting up MySQL
+1. Create an account with password in mysql
+2. Create a database
+3. Create a .env file with the following content:
+```
+DB_HOST = localhost
+DB_USER = <your username>
+DB_PASSWORD = <your password>
+DATABASE = <your db name>
+```
+
+Note: if you have space in your values, surround the words with double quotes
+
+
 # Running the server 
 1. Check if your terminal row starts with `(venv)`. If not, run `source venv/bin/activate`
 2. `python server.py` should start the server
